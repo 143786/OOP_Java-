@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Employee tim = new Employee("Tim", "11/11/1985",
+                77001, "01/01/2020");
+
+        System.out.println(tim);
+        System.out.println("Age = " + tim.getAge());
+        System.out.println("Pay = " + tim.collectPay());
+
     }
 }
