@@ -1,19 +1,23 @@
 public class Main {
     public static void main(String[] args) {
 
-        Player player = new Player();
-        player.name = "Malik";
-        player.health = 20;
-        player.weapon = "Sword";
-        // here we initialize those fields.
+//        Player player = new Player();
+//        player.name = "Malik";
+//        player.health = 20;
+//        player.weapon = "Sword";
+//        // here we initialize those fields.
+//
+//
+//        int damage = 10;
+//        player.losHealth(damage);
+//        System.out.println("Remaining health = " + player.healthRemaining());
+//        player.health =200;
+//        player.losHealth(11);
+//        System.out.println("Remaining health = " + player.healthRemaining());
 
+        EnhancedPlayer malik = new EnhancedPlayer("Malik", 200, "Sword");
+        System.out.println("Initial health is " + malik.healthRemaining());
 
-        int damage = 10;
-        player.losHealth(damage);
-        System.out.println("Remaining health = " + player.healthRemaining());
-        player.health =200;
-        player.losHealth(11);
-        System.out.println("Remaining health = " + player.healthRemaining());
     }
 }
 
